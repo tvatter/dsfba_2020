@@ -1,0 +1,80 @@
+#### Exercise 3: House Prices
+
+In this exercise, you will work with the [house prices dataset obtained from Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data).
+The dataset contains 81 columns describing (almost) every aspect of residential homes in Ames, Iowa.
+
+__3.a__ Save the [data file](https://raw.githubusercontent.com/tvatter/dsfba_2019/homework/data/house_prices.csv) in `data` folder of your project. Load the dataset into the global environment by using function `read_csv` and assign it to variable `house_prices`. Make sure that the class of `house_prices` is a tibble.
+
+```{r, message = FALSE}
+
+### your code goes here
+
+```
+
+__3.b__ You will work with only four variables, namely, `LotArea`, `KitchenQual`, `LotShape`, and `SalePrice`, which indicate area (in square feet), kitchen quality, general shape, and sale price (in dollars) of property. 
+Modify `house_prices` to have only these four columns, as well as transform `LotArea` from square feet into square meters. Bonus: try to use only one `dplyr` function.
+
+```{r, message = FALSE}
+
+### your code goes here
+
+```
+
+__3.c__ For how many lots have the sale price was greater than its mean value?
+
+```{r, message = FALSE}
+
+### your code goes here
+
+```
+
+
+__3.d__ Display the average sale price for each kitchen quality level.
+
+  Note, levels of `KitchenQual` correspond to the followin values:
+
+    - Ex -- Excellent,
+    - Gd -- Good,
+    - TA -- Typical/Average,
+    - Fa -- Fair
+    - Po -- Poor
+
+```{r, message = FALSE}
+
+### your code goes here
+
+```
+
+__3.e__ Display ten randomly selected observations from the dataset. What happens if you execute your code a few times? How can you make sure that each execution returns the exact 10 rows?
+
+```{r, message = FALSE}
+
+### your code goes here
+
+```
+
+__3.f__ Print out the minimum price of observations for which shape is regular (i.e., `"Reg"`), and the kitchen has excellent quality.
+
+```{r, message = FALSE}
+
+### your code goes here
+
+  
+```
+
+__3.g__ Produce boxplots with kitchen quality as the x-axis and the price as the y-axis. Regroup kitchen quality in the following order: excellent, good, typical/average, and fair. What can you say about the relationship between kitchen quality and the price?
+
+```{r, message = FALSE}
+
+### your code goes here
+
+```
+
+__3.h__ Draw a scatter chart to investigate the dependence between `LotArea` and `SalePrice`. Further, use different colors depending on the kitchen quality, and different shapes depending on the shape of the property. 
+
+```{r, message = FALSE}
+
+### your code goes here
+
+
+```

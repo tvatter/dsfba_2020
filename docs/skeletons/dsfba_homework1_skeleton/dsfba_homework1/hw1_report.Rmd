@@ -1,0 +1,31 @@
+---
+title: "Homework 1 - Report"
+author: "Name I, First Name I and Name II, First Name II"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+To obtain the maximum number of points, use whenever possible:
+
+* the pipeline symbol %>%,
+* `dplyr` verbs (see below),
+* `kable` to print tables,
+* `ggplot` to produce the figures.
+
+| verb | description |
+| :---  | :---  | :---:  |
+| `select()` | select columns |
+| `filter()` | filter rows |
+| `arrange()` | re-order or arrange rows |
+| `mutate()` | create new columns |
+| `summarise()` | summarise values |
+| `group_by()` | group operations |
+
+```{r child = 'hw1_ex1.Rmd'}
+```
+
+```{r child = 'hw1_ex2.Rmd'}
+```
+
+```{r child = 'hw1_ex3.Rmd'}
+```

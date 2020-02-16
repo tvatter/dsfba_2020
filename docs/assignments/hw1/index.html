@@ -13,19 +13,19 @@
     <title>HW1: Exploratory Data Analysis :: Data Science for Business Analytics</title>
     
     
-    <link href="/dsfba_2020/css/nucleus.css?1581854217" rel="stylesheet">
-    <link href="/dsfba_2020/css/font-awesome.min.css?1581854217" rel="stylesheet">
-    <link href="/dsfba_2020/css/hybrid.css?1581854217" rel="stylesheet">
-    <link href="/dsfba_2020/css/featherlight.min.css?1581854217" rel="stylesheet">
-    <link href="/dsfba_2020/css/perfect-scrollbar.min.css?1581854217" rel="stylesheet">
-    <link href="/dsfba_2020/css/auto-complete.css?1581854217" rel="stylesheet">
-    <link href="/dsfba_2020/css/theme.css?1581854217" rel="stylesheet">
-    <link href="/dsfba_2020/css/hugo-theme.css?1581854217" rel="stylesheet">
+    <link href="/dsfba_2020/css/nucleus.css?1581857146" rel="stylesheet">
+    <link href="/dsfba_2020/css/font-awesome.min.css?1581857146" rel="stylesheet">
+    <link href="/dsfba_2020/css/hybrid.css?1581857146" rel="stylesheet">
+    <link href="/dsfba_2020/css/featherlight.min.css?1581857146" rel="stylesheet">
+    <link href="/dsfba_2020/css/perfect-scrollbar.min.css?1581857146" rel="stylesheet">
+    <link href="/dsfba_2020/css/auto-complete.css?1581857146" rel="stylesheet">
+    <link href="/dsfba_2020/css/theme.css?1581857146" rel="stylesheet">
+    <link href="/dsfba_2020/css/hugo-theme.css?1581857146" rel="stylesheet">
     
-      <link href="/dsfba_2020/css/theme-blue.css?1581854217" rel="stylesheet">
+      <link href="/dsfba_2020/css/theme-blue.css?1581857146" rel="stylesheet">
     
 
-    <script src="/dsfba_2020/js/jquery-2.x.min.js?1581854217"></script>
+    <script src="/dsfba_2020/js/jquery-2.x.min.js?1581857146"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -56,14 +56,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/dsfba_2020/js/lunr.min.js?1581854217"></script>
-<script type="text/javascript" src="/dsfba_2020/js/auto-complete.js?1581854217"></script>
+<script type="text/javascript" src="/dsfba_2020/js/lunr.min.js?1581857146"></script>
+<script type="text/javascript" src="/dsfba_2020/js/auto-complete.js?1581857146"></script>
 <script type="text/javascript">
     
         var baseurl = '\/dsfba_2020';
     
 </script>
-<script type="text/javascript" src="/dsfba_2020/js/search.js?1581854217"></script>
+<script type="text/javascript" src="/dsfba_2020/js/search.js?1581857146"></script>
 
     
   </div>
@@ -366,9 +366,8 @@
 will have to do the following:</p>
 <ol style="list-style-type: decimal">
 <li>Create a new project with the name <code>homework1.Rproj</code>.</li>
-<li>Organize the files in the right folders to provide ease of building a final
-<code>HW1_report.Rmd</code> = <code>hw1_ex1.Rmd</code> + <code>hw1_ex2.Rmd</code> + <code>hw1_ex3.Rmd</code>.</li>
-<li>Following the instructions below, complete missing code in chunks in <code>hw1_ex1.Rmd</code>, <code>hw1_ex2.Rmd</code> and <code>hw1_ex3.Rmd</code>.</li>
+<li>Following the instructions below, complete missing code in chunks in <code>hw1_ex1.Rmd</code>, <code>hw1_ex2.Rmd</code>, <code>hw1_ex3.Rmd</code> and <code>hw1_ex4.Rmd</code>.</li>
+<li>Build the final report <code>hw1_report.Rmd</code> = <code>hw1_ex1.Rmd</code> + <code>hw1_ex2.Rmd</code> + <code>hw1_ex3.Rmd</code> + <code>hw1_ex3.Rmd</code>.</li>
 </ol>
 <p>To obtain the maximum number of points, use whenever possible:</p>
 <ul>
@@ -429,32 +428,31 @@ will have to do the following:</p>
 <div id="data-transformation-hands-on" class="section level4">
 <h4>Data transformation hands-on</h4>
 <p>Once you’re environment is set up, you’re ready to get your hands dirty with
-some data manipulation. Following the instructions provided in “R workflow and
-RMarkdown”, you should be able to solve the following assignments:</p>
+some data manipulation:</p>
 <ul>
 <li>Exercise 1: Setup</li>
-<li>Exercise 2: Edgar Anderson’s Iris Data</li>
-<li>Exercise 3: House Prices</li>
+<li>Exercise 2: Motor Trend Car Road Tests</li>
+<li>Exercise 3: New York Air Quality Measurements</li>
+<li>Exercise 4: Armed Conflicts, Visualization and Fact Checking</li>
 </ul>
 <p>Begin by writing your code in the corresponding code chuncks in <code>hw1_ex1.Rmd</code>,
-<code>hw1_ex2.Rmd</code> and <code>hw1_ex3.Rmd</code>. When you finish the three exercises, use <code>Knitr</code> to render the
-full report <code>HW1_report.Rmd</code>.
+<code>hw1_ex2.Rmd</code>, <code>hw1_ex3.Rmd</code> and <code>hw1_ex4.Rmd</code>. Then, use <code>Knitr</code> to render the
+full report <code>hw1_report.Rmd</code>.
 Don’t forget to save your files and keep them ready and clean for the next session.</p>
 </div>
 <div id="exercise-1-setup" class="section level4">
 <h4>Exercise 1: Setup</h4>
-<p><strong>* Connecting to remote repository</strong></p>
+<p><strong>Connecting to remote repository</strong></p>
 <p>To submit your homework you should connect to your assigned repository. If you need some help, follow the instructions on <a href="https://www.r-bloggers.com/rstudio-and-github/">this link</a>, Section: <em>Clone an existing GitHub project to new RStudio project</em>.</p>
 <p><strong>Project Setup ‘homework1.Rproj’</strong></p>
-<p>Use the files provided in <code>dsfba_homework1.zip</code> to structure your project in the following way (you should create subdirectories by yourselves):</p>
+<p>Use the files provided in the skeleton to structure your project in the following way:</p>
 <p><img src="project_structure.png" /></p>
-<p><strong>1.a</strong> Install the tidyverse and knitr.</p>
-<p><strong>1.b</strong> Load the tidyverse and knitr.</p>
 </div>
 <div id="notes-on-the-grading" class="section level4">
 <h4>Notes on the grading</h4>
+<p>Essentially, the points are counted as follows:</p>
 <ul>
-<li>1 point “per command” (e.g., there are 3 in both 2a and 2b), dplyr verbs/helper functions such as desc/assignments counts as “1 command”.</li>
+<li>1 point “per command”, dplyr verbs/helper functions such as desc/assignments counts as “1 command”.</li>
 <li>2 points per interpretation.</li>
 <li>1 point “per aesthetics” (counting x and y as a single aesthetic, but color/pch and others separately) + 1 point “per geom” + 1 point for labels/titles in general.</li>
 <li>1 points per call to kable (should be “polished” to get full points for the <code>kable</code> column).</li>
@@ -655,20 +653,20 @@ Don’t forget to save your files and keep them ready and clean for the next ses
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/dsfba_2020/js/clipboard.min.js?1581854217"></script>
-    <script src="/dsfba_2020/js/perfect-scrollbar.min.js?1581854217"></script>
-    <script src="/dsfba_2020/js/perfect-scrollbar.jquery.min.js?1581854217"></script>
-    <script src="/dsfba_2020/js/jquery.sticky.js?1581854217"></script>
-    <script src="/dsfba_2020/js/featherlight.min.js?1581854217"></script>
-    <script src="/dsfba_2020/js/html5shiv-printshiv.min.js?1581854217"></script>
-    <script src="/dsfba_2020/js/highlight.pack.js?1581854217"></script>
+    <script src="/dsfba_2020/js/clipboard.min.js?1581857146"></script>
+    <script src="/dsfba_2020/js/perfect-scrollbar.min.js?1581857146"></script>
+    <script src="/dsfba_2020/js/perfect-scrollbar.jquery.min.js?1581857146"></script>
+    <script src="/dsfba_2020/js/jquery.sticky.js?1581857146"></script>
+    <script src="/dsfba_2020/js/featherlight.min.js?1581857146"></script>
+    <script src="/dsfba_2020/js/html5shiv-printshiv.min.js?1581857146"></script>
+    <script src="/dsfba_2020/js/highlight.pack.js?1581857146"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/dsfba_2020/js/modernizr.custom.71422.js?1581854217"></script>
-    <script src="/dsfba_2020/js/learn.js?1581854217"></script>
-    <script src="/dsfba_2020/js/hugo-learn.js?1581854217"></script>
+    <script src="/dsfba_2020/js/modernizr.custom.71422.js?1581857146"></script>
+    <script src="/dsfba_2020/js/learn.js?1581857146"></script>
+    <script src="/dsfba_2020/js/hugo-learn.js?1581857146"></script>
 
-    <link href="/dsfba_2020/mermaid/mermaid.css?1581854217" type="text/css" rel="stylesheet" />
-    <script src="/dsfba_2020/mermaid/mermaid.js?1581854217"></script>
+    <link href="/dsfba_2020/mermaid/mermaid.css?1581857146" type="text/css" rel="stylesheet" />
+    <script src="/dsfba_2020/mermaid/mermaid.js?1581857146"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
