@@ -11,7 +11,7 @@ will have to do the following:
 
 1. Create a new project with the name `homework1.Rproj`.
 2. Following the instructions below, complete missing code in chunks in `hw1_ex1.Rmd`, `hw1_ex2.Rmd`, `hw1_ex3.Rmd` and `hw1_ex4.Rmd`. 
-3. Build the final report `hw1_report.Rmd` = `hw1_ex1.Rmd` + `hw1_ex2.Rmd` + `hw1_ex3.Rmd` + `hw1_ex3.Rmd`.
+3. Build the final report `hw1_report.Rmd` = `hw1_ex1.Rmd` + `hw1_ex2.Rmd` + `hw1_ex3.Rmd` + `hw1_ex4.Rmd`.
 
 
 To obtain the maximum number of points, use whenever possible:
