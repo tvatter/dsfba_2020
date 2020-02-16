@@ -1,4 +1,4 @@
-baseURL = "https://tvatter.github.io/dsfba_2019"
+baseURL = "https://tvatter.github.io/dsfba_2020"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
@@ -15,7 +15,7 @@ googleAnalytics = "UA-114246735-1"
 disqusShortname = "tvatter-github-io"
 
 [params]
-  editURL = "https://tvatter.github.io/dsfba_2019/"
+  editURL = "https://tvatter.github.io/dsfba_2020/"
   description = "Website of the course data science for business analytics"
   author = "Thibault Vatter"
   showVisitedLinks = true
