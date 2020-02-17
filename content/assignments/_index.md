@@ -18,7 +18,7 @@ registration is **March 2**.
 
  __HW#__ indicates if a lab session corresponds to one of the four homeworks.
 
-| Lab Date |  Topic | HW#  |
+| Lab Date |  Topic | Milestone  |
 | :---  | :---  | :---  |
 | February 17 (morning) |  [R](https://cloud.r-project.org/), [Rstudio](https://www.rstudio.com/products/rstudio/download/#download) and [Github](http://r-pkgs.had.co.nz/git.html) install/configuration, [R Refresher](/dsfba_2019/assignments/hw0/) | HW0 |
 | February 17 (afternoon) | R workflow, RMarkdown, and data wrangling (I) | HW1 |
