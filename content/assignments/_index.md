@@ -7,11 +7,12 @@ pre: "<b>3. </b>"
 On this page, you will find information about the four homeworks and the final 
 project.
 
-
 ## Group registration
-Please form groups of 2 members. Send an email to the [teaching assistant](mailto:iegor.rudnytskyi@unil.ch) with the names of
-the group members (one email per group is enough). The deadline for group
+
+Please form groups of 2 members and fill in [this Google Form](https://forms.gle/e5tbc8BbXvw6DUYMA) (one entrie per group is enough). The deadline for group
 registration is **March 2**. 
+
+Please come back to this page after **March 3** to ensure that details are correct.
 
 
 ## Overview
