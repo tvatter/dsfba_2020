@@ -35,7 +35,7 @@ Note that:
 There are several deliverables for your project that will be graded individually to make up your final project grade.
 
 ### Project proposal
-Fill out [this google form](soon) to propose a project by **March 15, 2020**. 
+Fill out [this google form](https://forms.gle/jo4d9VfXMcyeUy3L8) to propose a project by **March 15, 2020**.
 
 * The title can be changed at a later date. 
 * Each team (or individual if working alone) only needs to submit one form. 
@@ -43,7 +43,7 @@ Fill out [this google form](soon) to propose a project by **March 15, 2020**.
 judged satisfactory. But the goal is mostly to set you on a path to succeed! 
 
 ### Project udpate
-Fill out [this google form](todo) to update us on your project by **April 26, 2020**. 
+Fill out [this google form](https://forms.gle/is3WeajE5DW3F4z3A) to update us on your project by **April 26, 2020**. 
 
 * Make sure that the title is final at this points.
 * Each team (or individual if working alone) only needs to submit one form. 
