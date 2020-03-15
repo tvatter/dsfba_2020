@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 
-    <title>Assignments :: Data Science for Business Analytics</title>
+    <title>HW1: Exploratory Data Analysis :: Data Science for Business Analytics</title>
     
     
     <link href="/dsfba_2020/css/nucleus.css?1584281870" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/dsfba_2020/assignments/">
+  <body class="" data-url="/dsfba_2020/assignments/hw2/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -129,7 +129,7 @@
     
     <li data-nav-id="/dsfba_2020/assignments/" title="Assignments" class="dd-item 
         parent
-        active
+        
         
         ">
       <a href="/dsfba_2020/assignments/">
@@ -235,8 +235,8 @@
   
     
     <li data-nav-id="/dsfba_2020/assignments/hw2/" title="HW1: Exploratory Data Analysis" class="dd-item 
-        
-        
+        parent
+        active
         
         ">
       <a href="/dsfba_2020/assignments/hw2/">
@@ -329,7 +329,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://tvatter.github.io/dsfba_2020/assignments/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://tvatter.github.io/dsfba_2020/assignments/hw2/_index.html" target="blank">
                       <i class="fa fa-code-fork"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -354,7 +354,13 @@
             
           
           
-            <a href='/dsfba_2020/'>Data Science for Business Analytics</a> > Assignments
+            
+            
+          
+          
+            <a href='/dsfba_2020/'>Data Science for Business Analytics</a> > <a href='/dsfba_2020/assignments/'>Assignments</a> > HW1: Exploratory Data Analysis
+          
+         
           
          
           
@@ -364,16 +370,7 @@
                 
                     <div class="progress">
     <div class="wrapper">
-<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#group-registration">Group registration</a></li>
-<li><a href="#overview">Overview</a></li>
-<li><a href="#milestones">Milestones</a></li>
-</ul></li>
-</ul>
-</nav>
+
     </div>
 </div>
 
@@ -385,156 +382,108 @@
         
         <div id="body-inner">
           
-            <h1>Assignments</h1>
+            <h1>HW1: Exploratory Data Analysis</h1>
           
 
         
 
 
-
-
-<p>On this page, you will find information about the four homeworks and the final
-project.</p>
-
-<h2 id="group-registration">Group registration</h2>
-
-<p>Please form groups of 2 members and fill in <a href="https://forms.gle/e5tbc8BbXvw6DUYMA">this Google Form</a> (one entrie per group is enough). The deadline for group
-registration is <strong>March 2</strong>.</p>
-
-<p>After you fill in the form, you need to check your mailbox and accept an invitation to a group.</p>
-
-<p>Please come back to this page after <strong>March 3</strong> to ensure that details are correct.</p>
-
-<h2 id="overview">Overview</h2>
-
-<p><strong>HW#</strong> indicates if a lab session corresponds to one of the four homeworks.</p>
-
+<p><a href="https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/skeletons/dsfba_homework1_skeleton.zip">Download the HW1 skeleton files</a>. To successfully complete the first assignment you
+will have to do the following:</p>
+<ol style="list-style-type: decimal">
+<li>Create a new project with the name <code>homework1.Rproj</code>.</li>
+<li>Following the instructions below, complete missing code in chunks in <code>hw1_ex1.Rmd</code>, <code>hw1_ex2.Rmd</code>, <code>hw1_ex3.Rmd</code> and <code>hw1_ex4.Rmd</code>.</li>
+<li>Build the final report <code>hw1_report.Rmd</code> = <code>hw1_ex1.Rmd</code> + <code>hw1_ex2.Rmd</code> + <code>hw1_ex3.Rmd</code> + <code>hw1_ex4.Rmd</code>.</li>
+</ol>
+<p>To obtain the maximum number of points, use whenever possible:</p>
+<ul>
+<li>the pipeline symbol <code>%&gt;%</code>,</li>
+<li><code>dplyr</code> verbs (see below),</li>
+<li><code>kable</code> to print tables,</li>
+<li><code>ggplot</code> to produce the figures.</li>
+</ul>
 <table>
 <thead>
-<tr>
-<th align="left">Lab Date</th>
-<th align="left">Topic</th>
-<th align="left">Milestone</th>
+<tr class="header">
+<th align="left">verb</th>
+<th align="left">description</th>
+<th align="center"></th>
 </tr>
 </thead>
-
 <tbody>
-<tr>
-<td align="left">February 17 (morning)</td>
-<td align="left"><a href="https://cloud.r-project.org/">R</a>, <a href="https://www.rstudio.com/products/rstudio/download/#download">Rstudio</a> and <a href="http://r-pkgs.had.co.nz/git.html">Github</a> install/configuration, <a href="/dsfba_2019/assignments/hw0/">R Refresher</a></td>
-<td align="left">HW0</td>
+<tr class="odd">
+<td align="left"><code>select()</code></td>
+<td align="left">select columns</td>
+<td align="center"></td>
 </tr>
-
-<tr>
-<td align="left">February 17 (afternoon)</td>
-<td align="left">R workflow, RMarkdown, and data wrangling (I)</td>
-<td align="left">HW1</td>
+<tr class="even">
+<td align="left"><code>filter()</code></td>
+<td align="left">filter rows</td>
+<td align="center"></td>
 </tr>
-
-<tr>
-<td align="left">March 2 (morning)</td>
-<td align="left">Project</td>
-<td align="left">Project</td>
+<tr class="odd">
+<td align="left"><code>arrange()</code></td>
+<td align="left">re-order or arrange rows</td>
+<td align="center"></td>
 </tr>
-
-<tr>
-<td align="left">March 2 (afternoon)</td>
-<td align="left">Data wrangling (II) and visualization (I)</td>
-<td align="left">HW1</td>
+<tr class="even">
+<td align="left"><code>mutate()</code></td>
+<td align="left">create new columns</td>
+<td align="center"></td>
 </tr>
-
-<tr>
-<td align="left">March 16 (morning)</td>
-<td align="left">Project</td>
-<td align="left">Project</td>
+<tr class="odd">
+<td align="left"><code>summarise()</code></td>
+<td align="left">summarise values</td>
+<td align="center"></td>
 </tr>
-
-<tr>
-<td align="left">March 16 (afternoon)</td>
-<td align="left">Visualization (II) and modeling (I)</td>
-<td align="left">HW2</td>
-</tr>
-
-<tr>
-<td align="left">March 30 (morning)</td>
-<td align="left">Project</td>
-<td align="left">Project</td>
-</tr>
-
-<tr>
-<td align="left">March 30 (afternoon)</td>
-<td align="left">Modeling (II)</td>
-<td align="left">HW3</td>
-</tr>
-
-<tr>
-<td align="left">April 27 (morning)</td>
-<td align="left">Project</td>
-<td align="left">Project</td>
-</tr>
-
-<tr>
-<td align="left">April 27 (afternoon)</td>
-<td align="left">Project</td>
-<td align="left">Project</td>
-</tr>
-
-<tr>
-<td align="left">May 11 (morning)</td>
-<td align="left">Project</td>
-<td align="left">Project</td>
-</tr>
-
-<tr>
-<td align="left">May 11 (afternoon)</td>
-<td align="left">Project</td>
-<td align="left">Project</td>
+<tr class="even">
+<td align="left"><code>group_by()</code></td>
+<td align="left">group operations</td>
+<td align="center"></td>
 </tr>
 </tbody>
 </table>
-
-<h2 id="milestones">Milestones</h2>
-
-<table>
-<thead>
-<tr>
-<th align="left">Date</th>
-<th align="left">Assignment</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td align="left">March 15</td>
-<td align="left">Project proposal</td>
-</tr>
-
-<tr>
-<td align="left">March 15</td>
-<td align="left">HW1</td>
-</tr>
-
-<tr>
-<td align="left">March 29</td>
-<td align="left">HW2</td>
-</tr>
-
-<tr>
-<td align="left">April 26</td>
-<td align="left">Project update</td>
-</tr>
-
-<tr>
-<td align="left">April 26</td>
-<td align="left">HW3</td>
-</tr>
-
-<tr>
-<td align="left">May 24</td>
-<td align="left">Project report</td>
-</tr>
-</tbody>
-</table>
+<div id="revise-writing-report-using-rmarkdown" class="section level4">
+<h4>Revise writing report using RMarkdown</h4>
+<p><img src="rmarkdown_cs_1.png" /></p>
+<p><img src="rmarkdown_cs_2.png" /></p>
+<!-- __Q1.__ To showcase your successful project organisation, start your report by -->
+<!-- providing the code and output for listing all files in your current directory  -->
+<!-- and subdirectories. -->
+</div>
+<div id="data-transformation-hands-on" class="section level4">
+<h4>Data transformation hands-on</h4>
+<p>Once you’re environment is set up, you’re ready to get your hands dirty with
+some data manipulation:</p>
+<ul>
+<li>Exercise 1: Setup</li>
+<li>Exercise 2: Motor Trend Car Road Tests</li>
+<li>Exercise 3: New York Air Quality Measurements</li>
+<li>Exercise 4: Armed Conflicts, Visualization and Fact Checking</li>
+</ul>
+<p>Begin by writing your code in the corresponding code chuncks in <code>hw1_ex1.Rmd</code>,
+<code>hw1_ex2.Rmd</code>, <code>hw1_ex3.Rmd</code> and <code>hw1_ex4.Rmd</code>. Then, use <code>Knitr</code> to render the
+full report <code>hw1_report.Rmd</code>.
+Don’t forget to save your files and keep them ready and clean for the next session.</p>
+</div>
+<div id="exercise-1-setup" class="section level4">
+<h4>Exercise 1: Setup</h4>
+<p><strong>Connecting to remote repository</strong></p>
+<p>To submit your homework you should connect to your assigned repository. If you need some help, follow the instructions on <a href="https://www.r-bloggers.com/rstudio-and-github/">this link</a>, Section: <em>Clone an existing GitHub project to new RStudio project</em>.</p>
+<p><strong>Project Setup ‘homework1.Rproj’</strong></p>
+<p>Use the files provided in the skeleton to structure your project in the following way:</p>
+<p><img src="project_structure.png" /></p>
+</div>
+<div id="notes-on-the-grading" class="section level4">
+<h4>Notes on the grading</h4>
+<p>Essentially, the points are counted as follows:</p>
+<ul>
+<li>1 point “per command”, dplyr verbs/helper functions such as desc/assignments counts as “1 command”.</li>
+<li>2 points per interpretation.</li>
+<li>1 point “per aesthetics” (counting x and y as a single aesthetic, but color/pch and others separately) + 1 point “per geom” + 1 point for labels/titles in general.</li>
+<li>1 points per call to kable (should be “polished” to get full points for the <code>kable</code> column).</li>
+</ul>
+</div>
 
 
 <footer class=" footline" >
@@ -693,6 +642,7 @@ registration is <strong>March 2</strong>.</p>
             
                 
                     
+                    
                 
                 
 
@@ -712,6 +662,9 @@ registration is <strong>March 2</strong>.</p>
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -730,10 +683,10 @@ registration is <strong>March 2</strong>.</p>
 
 
         
-            <a class="nav nav-prev" href="/dsfba_2020/lectures/" title="Lectures"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/dsfba_2020/assignments/hw1/" title="HW1: Exploratory Data Analysis"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/dsfba_2020/assignments/project/" title="Project" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/dsfba_2020/ressources/" title="Resources" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
