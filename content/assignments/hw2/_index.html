@@ -1,106 +1,32 @@
 ---
-title: "HW1: Exploratory Data Analysis"
+title: "HW2: Modeling"
 author: "Thibault Vatter"
-date: "February 16, 2020"
+date: "March 15, 2020"
 output: html_document
 
 ---
 
 
 
-<p><a href="https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/skeletons/dsfba_homework1_skeleton.zip">Download the HW1 skeleton files</a>. To successfully complete the first assignment you
+<p><a href="https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/skeletons/dsfba_homework2_skeleton.zip">Download the HW2 skeleton files</a>. To successfully complete the first assignment you
 will have to do the following:</p>
 <ol style="list-style-type: decimal">
-<li>Create a new project with the name <code>homework1.Rproj</code>.</li>
-<li>Following the instructions below, complete missing code in chunks in <code>hw1_ex1.Rmd</code>, <code>hw1_ex2.Rmd</code>, <code>hw1_ex3.Rmd</code> and <code>hw1_ex4.Rmd</code>.</li>
-<li>Build the final report <code>hw1_report.Rmd</code> = <code>hw1_ex1.Rmd</code> + <code>hw1_ex2.Rmd</code> + <code>hw1_ex3.Rmd</code> + <code>hw1_ex4.Rmd</code>.</li>
+<li>Following the instructions below, complete missing code in chunks in <code>hw2_ex1.Rmd</code>, <code>hw2_ex2.Rmd</code>, and <code>hw2_ex3.Rmd</code>.</li>
+<li>Build the final report <code>hw2_report.Rmd</code> = <code>hw2_ex1.Rmd</code> + <code>hw2_ex2.Rmd</code> + <code>hw2_ex3.Rmd</code>.</li>
 </ol>
 <p>To obtain the maximum number of points, use whenever possible:</p>
 <ul>
 <li>the pipeline symbol <code>%&gt;%</code>,</li>
 <li><code>dplyr</code> verbs (see below),</li>
 <li><code>kable</code> to print tables,</li>
-<li><code>ggplot</code> to produce the figures.</li>
+<li><code>ggplot</code> to produce the figures,</li>
+<li><code>broom</code>’s functions to format the results model fits.</li>
 </ul>
-<table>
-<thead>
-<tr class="header">
-<th align="left">verb</th>
-<th align="left">description</th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><code>select()</code></td>
-<td align="left">select columns</td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="left"><code>filter()</code></td>
-<td align="left">filter rows</td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td align="left"><code>arrange()</code></td>
-<td align="left">re-order or arrange rows</td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="left"><code>mutate()</code></td>
-<td align="left">create new columns</td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td align="left"><code>summarise()</code></td>
-<td align="left">summarise values</td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="left"><code>group_by()</code></td>
-<td align="left">group operations</td>
-<td align="center"></td>
-</tr>
-</tbody>
-</table>
-<div id="revise-writing-report-using-rmarkdown" class="section level4">
-<h4>Revise writing report using RMarkdown</h4>
-<p><img src="rmarkdown_cs_1.png" /></p>
-<p><img src="rmarkdown_cs_2.png" /></p>
-<!-- __Q1.__ To showcase your successful project organisation, start your report by -->
-<!-- providing the code and output for listing all files in your current directory  -->
-<!-- and subdirectories. -->
-</div>
-<div id="data-transformation-hands-on" class="section level4">
-<h4>Data transformation hands-on</h4>
-<p>Once you’re environment is set up, you’re ready to get your hands dirty with
-some data manipulation:</p>
+<p>Also:</p>
 <ul>
-<li>Exercise 1: Setup</li>
-<li>Exercise 2: Motor Trend Car Road Tests</li>
-<li>Exercise 3: New York Air Quality Measurements</li>
-<li>Exercise 4: Armed Conflicts, Visualization and Fact Checking</li>
+<li>Pay attention to the general aesthetics of your report (i.e., formatting of
+the tables, sizing of the figures, etc.).</li>
+<li>Use inline code to display single numbers, and <code>echo = FALSE</code> for code chunks when you display
+a table of produce a figure (i.e., we don’t want to see code unless it is necessary).</li>
+<li>Comment your code to explain what you are doing.</li>
 </ul>
-<p>Begin by writing your code in the corresponding code chuncks in <code>hw1_ex1.Rmd</code>,
-<code>hw1_ex2.Rmd</code>, <code>hw1_ex3.Rmd</code> and <code>hw1_ex4.Rmd</code>. Then, use <code>Knitr</code> to render the
-full report <code>hw1_report.Rmd</code>.
-Don’t forget to save your files and keep them ready and clean for the next session.</p>
-</div>
-<div id="exercise-1-setup" class="section level4">
-<h4>Exercise 1: Setup</h4>
-<p><strong>Connecting to remote repository</strong></p>
-<p>To submit your homework you should connect to your assigned repository. If you need some help, follow the instructions on <a href="https://www.r-bloggers.com/rstudio-and-github/">this link</a>, Section: <em>Clone an existing GitHub project to new RStudio project</em>.</p>
-<p><strong>Project Setup ‘homework1.Rproj’</strong></p>
-<p>Use the files provided in the skeleton to structure your project in the following way:</p>
-<p><img src="project_structure.png" /></p>
-</div>
-<div id="notes-on-the-grading" class="section level4">
-<h4>Notes on the grading</h4>
-<p>Essentially, the points are counted as follows:</p>
-<ul>
-<li>1 point “per command”, dplyr verbs/helper functions such as desc/assignments counts as “1 command”.</li>
-<li>2 points per interpretation.</li>
-<li>1 point “per aesthetics” (counting x and y as a single aesthetic, but color/pch and others separately) + 1 point “per geom” + 1 point for labels/titles in general.</li>
-<li>1 points per call to kable (should be “polished” to get full points for the <code>kable</code> column).</li>
-</ul>
-</div>
