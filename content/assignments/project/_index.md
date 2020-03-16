@@ -144,10 +144,10 @@ For instructions on how to submit, please see **Submission Instructions** below.
 ## Submission Instructions
 
 #### How to submit the project proposal (due March 16, 2020)
-Fill out [this google form](todo) to propose a project (one per team).
+Fill out [this google form](https://forms.gle/jo4d9VfXMcyeUy3L8) to propose a project (one per team).
 
 #### How to submit the project udpate (by April 26, 2020)
-Fill out [this google form](todo) to update us on your project (one per team). 
+Fill out [this google form](https://forms.gle/is3WeajE5DW3F4z3A) to update us on your project (one per team). 
 
 #### How to submit the data, RMarkdown and compiled HTML files (due May 24, 2020)
 Use your team's GitHub repository to commit the data used for the final project, the RMarkdown file and the compiled HTML file:
