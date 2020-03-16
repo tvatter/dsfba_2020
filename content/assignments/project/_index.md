@@ -158,7 +158,7 @@ Use your team's GitHub repository to commit the data used for the final project,
 * If we cannot reproduce your compiled HTML file by following your instructions, we will not grade your work.
 
 #### How to submit the peer assessment (due May 26, 2020)
-Each individual team member needs to fill out this [google form for the peer evaluation](todo). 
+Each individual team member needs to fill out this [google form for the peer evaluation](https://forms.gle/6AKU8YZQxN8fg8Ye7). 
 
 #### How to submit the presentation slides (due May 25, 2020)
 Please upload them on your project's GitHub repository in a slides folder. 
