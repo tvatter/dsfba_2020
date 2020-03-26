@@ -77,3 +77,5 @@ Essentially, the points are counted as follows:
 * 2 points per interpretation.
 * 1 point "per aesthetics" (counting x and y as a single aesthetic, but color/pch and others separately) + 1 point "per geom" + 1 point for labels/titles in general.
 * 1 points per call to kable (should be "polished" to get full points for the `kable` column).
+
+The [solutions for HW1 are available here](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/solutions/dsfba_homework1_solution.zip).
