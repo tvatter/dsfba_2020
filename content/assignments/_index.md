@@ -42,7 +42,7 @@ Please come back to this page after **March 3** to ensure that details are corre
 | :---  | :---  |
 | March 15 | Project proposal |
 | March 15 | HW1 |
-| March 29 | HW2 |
+| April 05 | HW2 |
 | April 26 | Project update |
 | April 26 | HW3 |
 | May 24 | Project report |
