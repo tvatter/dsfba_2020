@@ -28,3 +28,5 @@ the tables, sizing of the figures, etc.).
 * Use inline code to display single numbers, and `echo = FALSE` for code chunks when you display 
 a table of produce a figure (i.e., we don't want to see code unless it is necessary).
 * Comment your code to explain what you are doing.
+
+The [solutions for HW2 are available here](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/solutions/dsfba_homework2_solution.zip).
