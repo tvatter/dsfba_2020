@@ -16,7 +16,7 @@ In the third column, numbers in parenthesis refers to chapters from [R for Data 
 | March 23 (afternoon) | [Modeling I](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture6.pdf) | [Model intro (22)](http://r4ds.had.co.nz/model-intro.html), [model basics (23)](http://r4ds.had.co.nz/model-basics.html) |
 | April 06 (morning) | [Bookdown](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/bookdown_demo.zip), [Modeling II](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture7.pdf) | [Model building (24)](http://r4ds.had.co.nz/model-building.html), [many models (25)](http://r4ds.had.co.nz/many-models.html) |
 | April 06 (afternoon) | Project coaching | |
-| April 27 (morning) | [Presentations, Dashboards, Interactivity](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture7.pdf) | [Code examples](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/examples.zip) |
+| April 27 (morning) | [Presentations, Dashboards, Interactivity](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture8.pdf) | [Code examples](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/interactivity.zip) |
 | April 27 (afternoon) | Guest lectures | |
 | May 11 (morning) | Project coaching | |
 | May 11 (afternoon) | Project coaching | |

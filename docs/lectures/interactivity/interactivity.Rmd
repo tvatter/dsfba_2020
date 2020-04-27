@@ -1,0 +1,59 @@
+---
+title: "Interactivity"
+author: "Thibault Vatter"
+date: "04/27/2020"
+output: ioslides_presentation
+---
+
+```{r setup, include = FALSE, echo = FALSE}
+library(knitr)
+opts_chunk$set(fig.width = 6, 
+               fig.asp = 0.618,
+               out.width = "70%",
+               message = FALSE,
+               warning = FALSE)
+```
+
+## leaflet
+
+```{r}
+library(leaflet)
+leaflet() %>%
+    setView(6.583581, 46.522155, zoom = 16) %>% 
+    addTiles() %>%
+    addMarkers(6.583581, 46.522155, popup = "Room 237") 
+```
+
+## dygraphs
+
+```{r}
+library(dygraphs)
+dygraph(nhtemp, main = "New Haven Temperatures") %>% 
+  dyRangeSelector(dateWindow = c("1920-01-01", "1960-01-01"))
+```
+
+## threejs
+
+```{r}
+library(threejs)
+data(ego)
+graphjs(ego, bg="black")
+```
+
+## rbokeh
+
+```{r}
+library(rbokeh)
+figure() %>%
+  ly_points(Sepal.Length, Sepal.Width, data = iris,
+    color = Species, glyph = Species,
+    hover = list(Sepal.Length, Sepal.Width))
+```
+
+## d3heatmap
+
+```{r}
+library(d3heatmap)
+d3heatmap(mtcars, scale = "column", colors = "Blues")
+```
+
