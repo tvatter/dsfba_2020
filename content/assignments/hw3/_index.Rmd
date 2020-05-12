@@ -31,3 +31,4 @@ a table of produce a figure (i.e., we don't want to see code unless it is necess
 * Minimize the amount of code duplication by using iterations concepts and list-columns.
 * Comment your code to explain what you are doing.
 
+The [solutions for HW3 are available here](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/solutions/dsfba_homework3_solution.zip).

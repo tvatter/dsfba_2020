@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science for Business Analytics</title>
-    <link>https://tvatter.github.io/dsfba_2020/</link>
+    <link>/dsfba_2020/</link>
     <description>Recent content on Data Science for Business Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tvatter.github.io/dsfba_2020/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/dsfba_2020/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
