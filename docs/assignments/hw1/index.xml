@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HW1: Exploratory Data Analysis on Data Science for Business Analytics</title>
-    <link>https://tvatter.github.io/dsfba_2020/assignments/hw1/</link>
+    <link>/dsfba_2020/assignments/hw1/</link>
     <description>Recent content in HW1: Exploratory Data Analysis on Data Science for Business Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     
-	<atom:link href="https://tvatter.github.io/dsfba_2020/assignments/hw1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/dsfba_2020/assignments/hw1/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

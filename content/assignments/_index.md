@@ -9,7 +9,7 @@ project.
 
 ## Group registration
 
-Please form groups of 2 members and fill in [this Google Form](https://forms.gle/e5tbc8BbXvw6DUYMA) (one entrie per group is enough). The deadline for group
+Please form groups of 2 members and fill in [this Google Form](https://forms.gle/e5tbc8BbXvw6DUYMA) (one entry per group is enough). The deadline for group
 registration is **March 2**.
 
 After you fill in the form, you need to check your mailbox and accept an invitation to a group.

@@ -4,6 +4,13 @@ title: "Data Science for Business Analytics"
 
 # Data Science for Business Analytics
 
+## Important information
+
+* **Registration:** fill in [this form](https://forms.gle/1oiSL9b2KQB5aAZG8) to register.
+* **Zoom link:** use [this link](https://columbiauniversity.zoom.us/j/91365325993) for the lectures/exercise sessions.
+
+## Aim of the course
+
 The aim of this course is to learn the most important tools to use data science in a business context, and includes concepts from statistics and computer science:
 
 > Just as a chemist learns how to clean test tubes and stock a lab, 
@@ -18,18 +25,18 @@ The aim of this course is to learn the most important tools to use data science 
 
 The course will cover the following topics:
 
-1. Explore
+1. Program
+  1. Data structures
+  2. Control flows
+  3. Functions
+2. Explore
   1. Data visualization
   2. Data transformation
   3. Exploratory data analysis
-2. Wrangle
+3. Wrangle
   1. Tidy data
   2. Relational data
   3. Strings, factors, dates and times
-3. Model
-  1. The basis
-  2. Model building
-  3. Many models
 4. Communicate
   1. Literate programming
   2. Graphics for communication
