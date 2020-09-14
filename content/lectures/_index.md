@@ -4,21 +4,21 @@ weight: 6
 pre: "<b>2. </b>"
 ---
 
-In the third column, numbers in parenthesis refers to chapters from [R for Data Science](http://r4ds.had.co.nz/).
+In the third column, references are to chapters from [Advanced R (ADVR)](https://adv-r.hadley.nz/), [R for Data Science (R4DS)](http://r4ds.had.co.nz/), and [R Markdown: The Definitive Guide (RMD)](https://bookdown.org/yihui/rmarkdown/).
 
-| Date | Topic | Reading |
-| :---  | :---  | :---:  |
-| February 17 (morning) | [Introduction, R workflow and RMarkdown](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture1.pdf) | [What is Data Science?](https://www.safaribooksonline.com/library/view/doing-data-science/9781449363871/ch01.html), [Prerequisites (1.4)](http://r4ds.had.co.nz/introduction.html#prerequisites), [scripts (6)](http://r4ds.had.co.nz/workflow-scripts.html), [projects (7)](http://r4ds.had.co.nz/workflow-projects.html), [git and R](Git and GitHub). [introduction to R Markdown](https://rmarkdown.rstudio.com/lesson-1.html), [how does R markdown works](https://rmarkdown.rstudio.com/lesson-2.html), [code chuncks](https://rmarkdown.rstudio.com/lesson-3.html), [R markdown cheat sheet](https://rmarkdown.rstudio.com/lesson-15.html) |
-| February 17 (afternoon) | [Wrangling I](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture2.pdf) | [Data transformations (5)](http://r4ds.had.co.nz/transform.html), [vectors (20)](http://r4ds.had.co.nz/vectors.html), [tibbles (10)](http://r4ds.had.co.nz/tibbles.html), [data import (11)](http://r4ds.had.co.nz/data-import.html), [tidy data (12)](http://r4ds.had.co.nz/tidy-data.html) |
-| March 2 (morning) | [Visualization  I](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture3.pdf) | [Data visualization (3)](http://r4ds.had.co.nz/data-visualisation.html) 
-| March 2 (afternoon) | [Wrangling II](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture4.pdf) | [Relational data (13)](http://r4ds.had.co.nz/relational-data.html), [strings (14)](http://r4ds.had.co.nz/strings.html),  [factors (15)](http://r4ds.had.co.nz/factors.html), [dates and times (16)](http://r4ds.had.co.nz/dates-and-times.html) |
-| March 23 (morning) |  [Visualization II](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture5.pdf)  | [Graphics for communication (28)](http://r4ds.had.co.nz/graphics-for-communication.html) |
-| March 23 (afternoon) | [Modeling I](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture6.pdf) | [Model intro (22)](http://r4ds.had.co.nz/model-intro.html), [model basics (23)](http://r4ds.had.co.nz/model-basics.html) |
-| April 06 (morning) | [Bookdown](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/bookdown_demo.zip), [Modeling II](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture7.pdf) | [Model building (24)](http://r4ds.had.co.nz/model-building.html), [many models (25)](http://r4ds.had.co.nz/many-models.html) |
-| April 06 (afternoon) | Project coaching | |
-| April 27 (morning) | [Presentations, Dashboards, Interactivity](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/lecture8.pdf) | [Code examples](https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/lectures/interactivity.zip) |
-| April 27 (afternoon) | Guest lectures | |
-| May 11 (morning) | Project coaching | |
-| May 11 (afternoon) | Project coaching | |
-| May 25 (morning) | Projects presentations | |
-| May 25 (afternoon) | Projects presentations | |
+| Date  | Topic | Reading |
+| :---  | :---  | :---    |
+| 09/16 | Introduction |  |
+| 09/23 | Data Structures and Subsetting | ADVR 3+4 |
+| 09/30 | Data Structures and Subsetting | ADVR 3+4 |
+| 10/07 | Control Flows and Functions | ADVR 5+6 |
+| 10/14 | Control Flows and Functions | ADVR 5+6 |
+| 10/21 | Data Wrangling | R4DS 5, 9-16, 18 |
+| 10/28 | Data Wrangling | R4DS 5, 9-16, 18 |
+| 11/04 | Data Wrangling | R4DS 5, 9-16, 18 |
+| 11/11 | Visualization and Communication | R4DS 3+28, RMD 2 |
+| 11/18 | Visualization and Communication | R4DS 3+28, RMD 2 |
+| 11/25 | Presentations/Dashboards/Interactivity | RMD 4+5, [htmlwidgets](https://www.htmlwidgets.org/) |
+| 12/02 | Guest Lectures | |
+| 12/09 | Projects Coaching | |
+| 12/16 | Projects Presentations | |

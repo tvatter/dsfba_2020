@@ -26,20 +26,20 @@ The aim of this course is to learn the most important tools to use data science 
 The course will cover the following topics:
 
 1. Program
-  1. Data structures
-  2. Control flows
-  3. Functions
+   1. Data structures
+   2. Control flows
+   3. Functions
 2. Explore
-  1. Data visualization
-  2. Data transformation
-  3. Exploratory data analysis
+   1. Data visualization
+   2. Data transformation
+   3. Exploratory data analysis
 3. Wrangle
-  1. Tidy data
-  2. Relational data
-  3. Strings, factors, dates and times
+   1. Tidy data
+   2. Relational data
+   3. Strings, factors, dates and times
 4. Communicate
-  1. Literate programming
-  2. Graphics for communication
+   1. Literate programming
+   2. Graphics for communication
 
 ![](http://r4ds.had.co.nz/diagrams/data-science.png)
 <center>*From http://r4ds.had.co.nz*</center>

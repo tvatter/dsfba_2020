@@ -1,45 +1,63 @@
 ---
-title: 'HW0: R Refresher'
-author: Natasha
-date: '2018-02-16'
+title: 'HW0: R Basics'
+author: "Thibault Vatter"
+date: "September 14, 2020"
 
 ---
+
+```{r setup, include = FALSE, echo = FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  size = "scriptsize",
+  cache = TRUE,
+  fig.retina = 0.8, # figures are either vectors or 300 dpi diagrams
+  dpi = 300,
+  out.width = "70%",
+  fig.align = 'center',
+  fig.width = 6,
+  fig.asp = 0.618,  # 1 / phi
+  fig.show = "hold"
+)
+```
+
 ## R Foundations
 
-In this optional tutorial you'll get an overview of the basic programming concepts in R and main data types. Just enough to get you up and running essenial R code. However, for true "beginners", we highly recommend going through [Advanced R - Chapter 'Foundations'](http://adv-r.had.co.nz/Data-structures.html) from which the content of this assignment is mainly (mostly) inspired by. 
+In this tutorial, you'll get an overview of the basic programming concepts in R 
+and main data types. 
+It's just enough to get you up and running essential R code. 
+However, for true "beginners", we highly recommend going through [Advanced R - Chapter 'Foundations'](http://adv-r.had.co.nz/Data-structures.html) from which the content of this assignment is (mostly) inspired by. 
 
 #### R, RStudio, Installation
 * [__R__](https://cran.r-project.org/) is a programming language for statistical analysis
 * [__RStudio__](https://www.rstudio.com/products/rstudio/download/) is the integrated development environment (IDE) for R in which we write and execute R code, plot things and write reports.
 * [Installation guidelines and details (Mac, Windows, Linux)](http://web.cs.ucla.edu/~gulzar/rstudio/)
 
-To follow the tutorial, you can start R Studio and execute statements from the code chuncks in the R Console.
-
+To follow the tutorial, you can start R Studio and execute statements from the code chunks in the R Console.
 
 #### Libraries
 R uses different libraries or packages to load specific functions (read excel files, talk to Twitter, generate plots).
 
 ```{r, message=F, warning=F}
-# install package from RStudio console
-# ** Note the quotation marks!
+# To install package from the console, note the quotation marks!
 # install.packages("name_of_package")
 
-# load package in enviromnet
-library(blogdown) 
+# load package in environment
+library(mgcv) 
 ```
 
 
 ##### Ex. 0
 
-As a starting point you can install the packages we'll extensively use throughout the semester:
+As a starting point you can install a package that we'll extensively use throughout the semester:
 
-* `readr`
 * `tidyverse`
 
 #### Assignment
 
-In R, we assign values (numbers, characters, data frames) to objects (vectors, matricies, variables).
+In R, we assign values (numbers, characters, data frames) to objects (vectors, matrices, variables).
 To do so, we use the `<-` operator:
+
 ```{r}
 # name_of_object <- value
 an_object <- 2
@@ -258,7 +276,7 @@ The following checklist makes it easier to import data correctly into R:
 
 * The first row is maybe reserved for the header, while the first column is used to identify the sampling unit;
 * Avoid names, values or fields with blank spaces, otherwise each word will be interpreted as a separate variable, resulting in errors that are related to the number of elements per line in your data set;
-* Short names are prefered over longer names;
+* Short names are preferred over longer names;
 * Try to avoid using names that contain symbols such as ?, $,%, ^, &, *, (, ),-,#, ?,,,<,>, /, |, \, [ ,] ,{, and };
 * Make sure that any missing values in your data set are indicated with NA.
 
@@ -336,7 +354,7 @@ c) Is it possible to apply the function `my_function_name` using `x` and `a` as 
 
 ##### Exercise 2
 Consider a vector `x` such that:
-`x=c(1, 3, 4, 7, 11, 18, 29)`
+`x <- c(1, 3, 4, 7, 11, 18, 29)`
 Write an R statement that will return a list `X2` with components of value:
 x\*2, x\/2, sqrt(x) and names 'x\*2', 'x\/2', 'sqrt(x)'.
 

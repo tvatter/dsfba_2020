@@ -10,22 +10,22 @@
     <link rel="shortcut icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="https://www.unil.ch/favicon.ico" type="image/x-icon" />
 
-    <title>HW1: Exploratory Data Analysis :: Data Science for Business Analytics</title>
+    <title>HW1-2: R programming :: Data Science for Business Analytics</title>
     
     
-    <link href="/dsfba_2020/css/nucleus.css?1600092954" rel="stylesheet">
-    <link href="/dsfba_2020/css/font-awesome.min.css?1600092954" rel="stylesheet">
-    <link href="/dsfba_2020/css/hybrid.css?1600092954" rel="stylesheet">
-    <link href="/dsfba_2020/css/featherlight.min.css?1600092954" rel="stylesheet">
-    <link href="/dsfba_2020/css/perfect-scrollbar.min.css?1600092954" rel="stylesheet">
-    <link href="/dsfba_2020/css/auto-complete.css?1600092954" rel="stylesheet">
-    <link href="/dsfba_2020/css/theme.css?1600092954" rel="stylesheet">
-    <link href="/dsfba_2020/css/hugo-theme.css?1600092954" rel="stylesheet">
+    <link href="/dsfba_2020/css/nucleus.css?1600096376" rel="stylesheet">
+    <link href="/dsfba_2020/css/font-awesome.min.css?1600096376" rel="stylesheet">
+    <link href="/dsfba_2020/css/hybrid.css?1600096376" rel="stylesheet">
+    <link href="/dsfba_2020/css/featherlight.min.css?1600096376" rel="stylesheet">
+    <link href="/dsfba_2020/css/perfect-scrollbar.min.css?1600096376" rel="stylesheet">
+    <link href="/dsfba_2020/css/auto-complete.css?1600096376" rel="stylesheet">
+    <link href="/dsfba_2020/css/theme.css?1600096376" rel="stylesheet">
+    <link href="/dsfba_2020/css/hugo-theme.css?1600096376" rel="stylesheet">
     
-      <link href="/dsfba_2020/css/theme-blue.css?1600092954" rel="stylesheet">
+      <link href="/dsfba_2020/css/theme-blue.css?1600096376" rel="stylesheet">
     
 
-    <script src="/dsfba_2020/js/jquery-2.x.min.js?1600092954"></script>
+    <script src="/dsfba_2020/js/jquery-2.x.min.js?1600096376"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -56,14 +56,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/dsfba_2020/js/lunr.min.js?1600092954"></script>
-<script type="text/javascript" src="/dsfba_2020/js/auto-complete.js?1600092954"></script>
+<script type="text/javascript" src="/dsfba_2020/js/lunr.min.js?1600096376"></script>
+<script type="text/javascript" src="/dsfba_2020/js/auto-complete.js?1600096376"></script>
 <script type="text/javascript">
     
         var baseurl = '\/dsfba_2020';
     
 </script>
-<script type="text/javascript" src="/dsfba_2020/js/search.js?1600092954"></script>
+<script type="text/javascript" src="/dsfba_2020/js/search.js?1600096376"></script>
 
     
   </div>
@@ -182,13 +182,13 @@
  
   
     
-    <li data-nav-id="/dsfba_2020/assignments/hw0/" title="HW0: R Refresher" class="dd-item 
+    <li data-nav-id="/dsfba_2020/assignments/hw0/" title="HW0: R Basics" class="dd-item 
         
         
         
         ">
       <a href="/dsfba_2020/assignments/hw0/">
-          HW0: R Refresher
+          HW0: R Basics
           
             <i class="fa fa-check read-icon"></i>
           
@@ -208,13 +208,13 @@
  
   
     
-    <li data-nav-id="/dsfba_2020/assignments/hw1/" title="HW1: Exploratory Data Analysis" class="dd-item 
+    <li data-nav-id="/dsfba_2020/assignments/hw1/" title="HW1-2: R programming" class="dd-item 
         parent
         active
         
         ">
       <a href="/dsfba_2020/assignments/hw1/">
-          HW1: Exploratory Data Analysis
+          HW1-2: R programming
           
             <i class="fa fa-check read-icon"></i>
           
@@ -384,7 +384,7 @@
             
           
           
-            <a href='/dsfba_2020/'>Data Science for Business Analytics</a> > <a href='/dsfba_2020/assignments/'>Assignments</a> > HW1: Exploratory Data Analysis
+            <a href='/dsfba_2020/'>Data Science for Business Analytics</a> > <a href='/dsfba_2020/assignments/'>Assignments</a> > HW1-2: R programming
           
          
           
@@ -408,7 +408,7 @@
         
         <div id="body-inner">
           
-            <h1>HW1: Exploratory Data Analysis</h1>
+            <h1>HW1-2: R programming</h1>
           
 
         
@@ -417,103 +417,10 @@
 
 
 
-<p><a href="https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/skeletons/dsfba_homework1_skeleton.zip">Download the HW1 skeleton files</a>. To successfully complete the first assignment you
-will have to do the following:</p>
-<ol style="list-style-type: decimal">
-<li>Create a new project with the name <code>homework1.Rproj</code>.</li>
-<li>Following the instructions below, complete missing code in chunks in <code>hw1_ex1.Rmd</code>, <code>hw1_ex2.Rmd</code>, <code>hw1_ex3.Rmd</code> and <code>hw1_ex4.Rmd</code>.</li>
-<li>Build the final report <code>hw1_report.Rmd</code> = <code>hw1_ex1.Rmd</code> + <code>hw1_ex2.Rmd</code> + <code>hw1_ex3.Rmd</code> + <code>hw1_ex4.Rmd</code>.</li>
-</ol>
-<p>To obtain the maximum number of points, use whenever possible:</p>
+<p>The first two homeworks will have to be completed in Ed:</p>
 <ul>
-<li>the pipeline symbol <code>%&gt;%</code>,</li>
-<li><code>dplyr</code> verbs (see below),</li>
-<li><code>kable</code> to print tables,</li>
-<li><code>ggplot</code> to produce the figures.</li>
+<li><a href="https://us.edstem.org/courses/2452/lessons/5393/slides/24022">Homework 1</a></li>
 </ul>
-<table>
-<thead>
-<tr class="header">
-<th align="left">verb</th>
-<th align="left">description</th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><code>select()</code></td>
-<td align="left">select columns</td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="left"><code>filter()</code></td>
-<td align="left">filter rows</td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td align="left"><code>arrange()</code></td>
-<td align="left">re-order or arrange rows</td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="left"><code>mutate()</code></td>
-<td align="left">create new columns</td>
-<td align="center"></td>
-</tr>
-<tr class="odd">
-<td align="left"><code>summarise()</code></td>
-<td align="left">summarise values</td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td align="left"><code>group_by()</code></td>
-<td align="left">group operations</td>
-<td align="center"></td>
-</tr>
-</tbody>
-</table>
-<div id="revise-writing-report-using-rmarkdown" class="section level4">
-<h4>Revise writing report using RMarkdown</h4>
-<p><img src="rmarkdown_cs_1.png" /></p>
-<p><img src="rmarkdown_cs_2.png" /></p>
-<!-- __Q1.__ To showcase your successful project organisation, start your report by -->
-<!-- providing the code and output for listing all files in your current directory  -->
-<!-- and subdirectories. -->
-</div>
-<div id="data-transformation-hands-on" class="section level4">
-<h4>Data transformation hands-on</h4>
-<p>Once you’re environment is set up, you’re ready to get your hands dirty with
-some data manipulation:</p>
-<ul>
-<li>Exercise 1: Setup</li>
-<li>Exercise 2: Motor Trend Car Road Tests</li>
-<li>Exercise 3: New York Air Quality Measurements</li>
-<li>Exercise 4: Armed Conflicts, Visualization and Fact Checking</li>
-</ul>
-<p>Begin by writing your code in the corresponding code chuncks in <code>hw1_ex1.Rmd</code>,
-<code>hw1_ex2.Rmd</code>, <code>hw1_ex3.Rmd</code> and <code>hw1_ex4.Rmd</code>. Then, use <code>Knitr</code> to render the
-full report <code>hw1_report.Rmd</code>.
-Don’t forget to save your files and keep them ready and clean for the next session.</p>
-</div>
-<div id="exercise-1-setup" class="section level4">
-<h4>Exercise 1: Setup</h4>
-<p><strong>Connecting to remote repository</strong></p>
-<p>To submit your homework you should connect to your assigned repository. If you need some help, follow the instructions on <a href="https://www.r-bloggers.com/rstudio-and-github/">this link</a>, Section: <em>Clone an existing GitHub project to new RStudio project</em>.</p>
-<p><strong>Project Setup ‘homework1.Rproj’</strong></p>
-<p>Use the files provided in the skeleton to structure your project in the following way:</p>
-<p><img src="project_structure.png" /></p>
-</div>
-<div id="notes-on-the-grading" class="section level4">
-<h4>Notes on the grading</h4>
-<p>Essentially, the points are counted as follows:</p>
-<ul>
-<li>1 point “per command”, dplyr verbs/helper functions such as desc/assignments counts as “1 command”.</li>
-<li>2 points per interpretation.</li>
-<li>1 point “per aesthetics” (counting x and y as a single aesthetic, but color/pch and others separately) + 1 point “per geom” + 1 point for labels/titles in general.</li>
-<li>1 points per call to kable (should be “polished” to get full points for the <code>kable</code> column).</li>
-</ul>
-<p>The <a href="https://raw.githubusercontent.com/tvatter/dsfba_2020/master/static/solutions/dsfba_homework1_solution.zip">solutions for HW1 are available here</a>.</p>
-</div>
 
 
 <footer class=" footline" >
@@ -729,7 +636,7 @@ Don’t forget to save your files and keep them ready and clean for the next ses
 
 
         
-            <a class="nav nav-prev" href="/dsfba_2020/assignments/hw0/" title="HW0: R Refresher"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/dsfba_2020/assignments/hw0/" title="HW0: R Basics"> <i class="fa fa-chevron-left"></i></a>
         
         
             <a class="nav nav-next" href="/dsfba_2020/assignments/hw2/" title="HW2: Modeling" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
@@ -741,20 +648,20 @@ Don’t forget to save your files and keep them ready and clean for the next ses
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/dsfba_2020/js/clipboard.min.js?1600092954"></script>
-    <script src="/dsfba_2020/js/perfect-scrollbar.min.js?1600092954"></script>
-    <script src="/dsfba_2020/js/perfect-scrollbar.jquery.min.js?1600092954"></script>
-    <script src="/dsfba_2020/js/jquery.sticky.js?1600092954"></script>
-    <script src="/dsfba_2020/js/featherlight.min.js?1600092954"></script>
-    <script src="/dsfba_2020/js/html5shiv-printshiv.min.js?1600092954"></script>
-    <script src="/dsfba_2020/js/highlight.pack.js?1600092954"></script>
+    <script src="/dsfba_2020/js/clipboard.min.js?1600096376"></script>
+    <script src="/dsfba_2020/js/perfect-scrollbar.min.js?1600096376"></script>
+    <script src="/dsfba_2020/js/perfect-scrollbar.jquery.min.js?1600096376"></script>
+    <script src="/dsfba_2020/js/jquery.sticky.js?1600096376"></script>
+    <script src="/dsfba_2020/js/featherlight.min.js?1600096376"></script>
+    <script src="/dsfba_2020/js/html5shiv-printshiv.min.js?1600096376"></script>
+    <script src="/dsfba_2020/js/highlight.pack.js?1600096376"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/dsfba_2020/js/modernizr.custom.71422.js?1600092954"></script>
-    <script src="/dsfba_2020/js/learn.js?1600092954"></script>
-    <script src="/dsfba_2020/js/hugo-learn.js?1600092954"></script>
+    <script src="/dsfba_2020/js/modernizr.custom.71422.js?1600096376"></script>
+    <script src="/dsfba_2020/js/learn.js?1600096376"></script>
+    <script src="/dsfba_2020/js/hugo-learn.js?1600096376"></script>
 
-    <link href="/dsfba_2020/mermaid/mermaid.css?1600092954" type="text/css" rel="stylesheet" />
-    <script src="/dsfba_2020/mermaid/mermaid.js?1600092954"></script>
+    <link href="/dsfba_2020/mermaid/mermaid.css?1600096376" type="text/css" rel="stylesheet" />
+    <script src="/dsfba_2020/mermaid/mermaid.js?1600096376"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

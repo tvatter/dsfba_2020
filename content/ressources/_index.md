@@ -34,6 +34,37 @@ The tidyverse is an opinionated collection of R packages designed for data
 science. All packages share an underlying design philosophy, grammar, and 
 data structures. 
 
+## Books
+
+#### [Advanced R](https://adv-r.hadley.nz/)
+
+> The book is designed primarily for R users who want to improve their 
+> programming skills and understanding of the language. 
+> It should also be useful for programmers coming to R from other languages, 
+> as it explains some of R’s quirks and shows how some parts that seem horrible 
+> do have a positive side.
+> <cite> Hadley Wickham </cite>
+
+#### [R for Data Science](http://r4ds.had.co.nz/)
+
+> This book will teach you how to do data science with R: You'll learn how to 
+> get your data into R, get it into the most useful structure, transform it, 
+> visualise it and model it. In this book, you will find a practicum of skills 
+> for data science. 
+> <cite> Garrett Grolemund and Hadley Wickham </cite>
+
+#### [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)
+
+> The document format "R Markdown" was first introduced in the knitr package 
+> (Xie 2015, 2020c) in early 2012. The idea was to embed code chunks (of R or 
+> other languages) in Markdown documents. In fact, knitr supported several 
+> authoring languages from the beginning in addition to Markdown, including 
+> LaTeX, HTML, AsciiDoc, reStructuredText, and Textile. Looking back over the 
+> five years, it seems to be fair to say that Markdown has become the most 
+> popular document format, which is what we expected.
+> <cite> Yihui Xie, J. J. Allaire, Garrett Grolemund </cite>
+
+
 ## Online learning
 
 #### [Coding club's tutorials](https://ourcodingclub.github.io/)
@@ -65,25 +96,6 @@ Followed by part 2 which covers more advanced topics.
 This course brings ggplot2 and dplyr into action in an in-depth analysis of 
 United Nations voting data. The course also introduces broom for tidying 
 model output and the tidyr package for wrangling data into an explorable shape.
-
-## Books
-
-#### [Advanced R](http://adv-r.had.co.nz/)
-
-> The book is designed primarily for R users who want to improve their 
-> programming skills and understanding of the language. 
-> It should also be useful for programmers coming to R from other languages, 
-> as it explains some of R’s quirks and shows how some parts that seem horrible 
-> do have a positive side.
-> <cite> Hadley Wickham </cite>
-
-#### [R for Data Science](http://r4ds.had.co.nz/)
-
-> This book will teach you how to do data science with R: You'll learn how to 
-> get your data into R, get it into the most useful structure, transform it, 
-> visualise it and model it. In this book, you will find a practicum of skills 
-> for data science. 
-> <cite> Garrett Grolemund and Hadley Wickham </cite>
 
 ## Misc
 
