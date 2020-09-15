@@ -86,7 +86,8 @@ The basic data structure in R is the vector. Vectors can be of two kinds: atomic
 * Type, `typeof()`, what it is.
 * Length, `length()`, how many elements it contains.
 * Attributes, `attributes()`, additional arbitrary metadata.
-They differ in the types of their elements: __all elements__ of an atomic vector must be the __same type__, whereas the elements of a list can have different types.
+
+However, atomic vectors and lists differ in the types of their elements: __all elements__ of an atomic vector must be the __same type__, whereas the elements of a list can have different types.
 
 There are four common types of atomic vectors: 
 
@@ -123,7 +124,7 @@ str(x)
 
 #### Attributes
 
-All objects can have arbitrary additional attributes, used to store __metadata__ about the object. Attributes can be thought of as a named list (with unique names). They can be accessed individually with `attr()` or all at once (as a list) with attributes().
+All objects can have arbitrary additional attributes, used to store __metadata__ about the object. Attributes can be thought of as a named list (with unique names). They can be accessed individually with `attr()` or all at once (as a list) with `attributes()`.
 
 ```{r, message=F, warning=F}
 y <- 1:10
@@ -186,12 +187,12 @@ Positive integers return elements at the specified positions:
 x[c(3, 1)]
 ```
 
-Duplicated indices yield duplicated values
+Duplicated indices yield duplicated values:
 ```{r, highlight = FALSE}
 x[c(1, 1)]
 ```
 
-Real numbers are silently truncated to integers
+Real numbers are silently truncated to integers:
 ```{r, highlight = FALSE}
 x[c(2, 9)]
 ```
@@ -199,7 +200,7 @@ Negative integers omit elements at the specified positions:
 ```{r, highlight = FALSE}
 x[-c(3, 1)]
 ```
-You can’t mix positive and negative integers in a single subset: x[c(-1, 2)]
+You can’t mix positive and negative integers in a single subset: `x[c(-1, 2)]` is not allowed.
 
 Logical vectors select elements where the corresponding logical value is TRUE. This is
 probably the most useful type of subsetting because you write the expression that creates
@@ -239,7 +240,8 @@ Like integer indices, you can repeat indices:
 ```{r}
 y[c("a", "a", "a")]
 ```
-When subsetting with [ names are always matched exactly
+
+When subsetting with `[` names are always matched exactly
 ```{r}
 z <- c(abc = 1, def = 2)
 z[c("a", "d")]
@@ -276,7 +278,7 @@ The following checklist makes it easier to import data correctly into R:
 * The first row is maybe reserved for the header, while the first column is used to identify the sampling unit;
 * Avoid names, values or fields with blank spaces, otherwise each word will be interpreted as a separate variable, resulting in errors that are related to the number of elements per line in your data set;
 * Short names are preferred over longer names;
-* Try to avoid using names that contain symbols such as ?, $,%, ^, &, *, (, ),-,#, ?,,,<,>, /, |, \, [ ,] ,{, and };
+* Try to avoid using names that contain symbols such as `?, $,%, ^, &, *, (, ),-,#, ?,,,<,>, /, |, \, [ ,] ,{,` and `}`;
 * Make sure that any missing values in your data set are indicated with NA.
 
 
@@ -317,7 +319,7 @@ my_function_name <- function(arg1 = "default", arg2 = "default") {
   
 ```
 
-[CRAN](https://cran.r-project.org/) - the curated repository of R packages provides millions of functions that you could use to tackle data. You simply need to install a package, and then call the function from your R code `function_name(somearguments)`. For example, the package `stats` helps you in fitting linear model through the function `lm()`:
+[CRAN](https://cran.r-project.org/) - the curated repository of R packages provides millions of functions that you could use to tackle data. You simply need to install a package, and then call the function from your R code `function_name(somearguments)`. For example, the package `stats` helps you in fitting linear models through the function `lm()`:
 ```{r}
 library(stats)
 
@@ -345,7 +347,7 @@ How many functions have been used in the example? What does `rnorm` mean? You ca
 
 Try to figure out the answers without executing the code. Check your answers in R Studio.
 
-a) Given the vector: `x <- c("ww", "ee", "ff", "uu", "kk")`, what will be the output for x[c(2,3)] ?
+a) Given the vector: `x <- c("ww", "ee", "ff", "uu", "kk")`, what will be the output for `x[c(2,3)]` ?
 
 b) Let `a <- c(2, 4, 6, 8)` and `b <- c(TRUE, FALSE, TRUE, FALSE)`, what will be the output for the R expression `max(a[b])`?
 
@@ -370,7 +372,7 @@ d) Get the number of rows and columns of the data.
 
 a) Convert DS from the previous exercise to a data frame DF.
 b) Add an additional column "zeros" in DF with all elements 0.
-c) Remove the Weight comuln from DF.
+c) Remove the Weight column from DF.
 
 
 
