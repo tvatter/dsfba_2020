@@ -278,7 +278,7 @@ The following checklist makes it easier to import data correctly into R:
 * The first row is maybe reserved for the header, while the first column is used to identify the sampling unit;
 * Avoid names, values or fields with blank spaces, otherwise each word will be interpreted as a separate variable, resulting in errors that are related to the number of elements per line in your data set;
 * Short names are preferred over longer names;
-* Try to avoid using names that contain symbols such as `?, $,%, ^, &, *, (, ),-,#, ?,,,<,>, /, |, \, [ ,] ,{,` and `}`;
+* Try to avoid using names that contain symbols such as `?`, `$`,`%`, `^`, `&`, `*`, `(`, `)`,`-`,`#`, `?`,`,`,`<`,`>`, `/`, `|`, `\`, `[` ,`]` ,`{`,  and `}`;
 * Make sure that any missing values in your data set are indicated with NA.
 
 
