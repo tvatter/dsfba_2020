@@ -23,8 +23,8 @@ you can write me to set-up a meeting via Zoom.
 ## Course Readings
 
 There will be no mandatory reading. However, weekly readings related to the
-[lectures](/lectures/) are strongly recommended, 
-and [additional ressources](/ressources/) 
+[lectures](/dsfba_2020/lectures/) are strongly recommended, 
+and [additional ressources](/dsfba_2020/ressources/) 
 will undoubtedly be useful.
 
 ## Evaluation
