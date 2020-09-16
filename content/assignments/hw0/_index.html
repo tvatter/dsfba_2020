@@ -87,9 +87,9 @@ print(another_object)
 <ul>
 <li>Type, <code>typeof()</code>, what it is.</li>
 <li>Length, <code>length()</code>, how many elements it contains.</li>
-<li>Attributes, <code>attributes()</code>, additional arbitrary metadata.
-They differ in the types of their elements: <strong>all elements</strong> of an atomic vector must be the <strong>same type</strong>, whereas the elements of a list can have different types.</li>
+<li>Attributes, <code>attributes()</code>, additional arbitrary metadata.</li>
 </ul>
+<p>However, atomic vectors and lists differ in the types of their elements: <strong>all elements</strong> of an atomic vector must be the <strong>same type</strong>, whereas the elements of a list can have different types.</p>
 <p>There are four common types of atomic vectors:</p>
 <ul>
 <li>logical</li>
@@ -125,7 +125,7 @@ str(x)
 </div>
 <div id="attributes" class="section level4">
 <h4>Attributes</h4>
-<p>All objects can have arbitrary additional attributes, used to store <strong>metadata</strong> about the object. Attributes can be thought of as a named list (with unique names). They can be accessed individually with <code>attr()</code> or all at once (as a list) with attributes().</p>
+<p>All objects can have arbitrary additional attributes, used to store <strong>metadata</strong> about the object. Attributes can be thought of as a named list (with unique names). They can be accessed individually with <code>attr()</code> or all at once (as a list) with <code>attributes()</code>.</p>
 <pre class="r"><code>y &lt;- 1:10
 attr(y, &quot;my_attribute&quot;) &lt;- &quot;This is a vector&quot;
 
@@ -180,16 +180,16 @@ str(df)
 <p>Positive integers return elements at the specified positions:</p>
 <pre class="text"><code>x[c(3, 1)]
 #&gt; [1] 3 2</code></pre>
-<p>Duplicated indices yield duplicated values</p>
+<p>Duplicated indices yield duplicated values:</p>
 <pre class="text"><code>x[c(1, 1)]
 #&gt; [1] 2 2</code></pre>
-<p>Real numbers are silently truncated to integers</p>
+<p>Real numbers are silently truncated to integers:</p>
 <pre class="text"><code>x[c(2, 9)]
 #&gt; [1]  4 NA</code></pre>
 <p>Negative integers omit elements at the specified positions:</p>
 <pre class="text"><code>x[-c(3, 1)]
 #&gt; [1] 4 5</code></pre>
-<p>You can’t mix positive and negative integers in a single subset: x[c(-1, 2)]</p>
+<p>You can’t mix positive and negative integers in a single subset: <code>x[c(-1, 2)]</code> is not allowed.</p>
 <p>Logical vectors select elements where the corresponding logical value is TRUE. This is
 probably the most useful type of subsetting because you write the expression that creates
 the logical vector:</p>
@@ -222,7 +222,7 @@ y[c(&quot;d&quot;, &quot;c&quot;, &quot;a&quot;)]
 <pre class="r"><code>y[c(&quot;a&quot;, &quot;a&quot;, &quot;a&quot;)]
 #&gt; a a a 
 #&gt; 2 2 2</code></pre>
-<p>When subsetting with [ names are always matched exactly</p>
+<p>When subsetting with <code>[</code> names are always matched exactly</p>
 <pre class="r"><code>z &lt;- c(abc = 1, def = 2)
 z[c(&quot;a&quot;, &quot;d&quot;)]
 #&gt; &lt;NA&gt; &lt;NA&gt; 
@@ -259,7 +259,7 @@ df[df$x == 2, ]
 <li>The first row is maybe reserved for the header, while the first column is used to identify the sampling unit;</li>
 <li>Avoid names, values or fields with blank spaces, otherwise each word will be interpreted as a separate variable, resulting in errors that are related to the number of elements per line in your data set;</li>
 <li>Short names are preferred over longer names;</li>
-<li>Try to avoid using names that contain symbols such as ?, $,%, ^, &amp;, *, (, ),-,#, ?,,,&lt;,&gt;, /, |, , [ ,] ,{, and };</li>
+<li>Try to avoid using names that contain symbols such as <code>?</code>, <code>$</code>,<code>%</code>, <code>^</code>, <code>&amp;</code>, <code>*</code>, <code>(</code>, <code>)</code>,<code>-</code>,<code>#</code>, <code>?</code>,<code>,</code>,<code>&lt;</code>,<code>&gt;</code>, <code>/</code>, <code>|</code>, <code>\</code>, <code>[</code> ,<code>]</code> ,<code>{</code>, and <code>}</code>;</li>
 <li>Make sure that any missing values in your data set are indicated with NA.</li>
 </ul>
 <pre class="r"><code>library(readr)
@@ -303,7 +303,7 @@ df &lt;- read.table(
 #&gt; Hello World!
   print(a_greeting)
 #&gt; NULL</code></pre>
-<p><a href="https://cran.r-project.org/">CRAN</a> - the curated repository of R packages provides millions of functions that you could use to tackle data. You simply need to install a package, and then call the function from your R code <code>function_name(somearguments)</code>. For example, the package <code>stats</code> helps you in fitting linear model through the function <code>lm()</code>:</p>
+<p><a href="https://cran.r-project.org/">CRAN</a> - the curated repository of R packages provides millions of functions that you could use to tackle data. You simply need to install a package, and then call the function from your R code <code>function_name(somearguments)</code>. For example, the package <code>stats</code> helps you in fitting linear models through the function <code>lm()</code>:</p>
 <pre class="r"><code>library(stats)
 
 x &lt;- rnorm(500)
@@ -318,7 +318,7 @@ print(lm.fit)
 #&gt; 
 #&gt; Coefficients:
 #&gt; (Intercept)            x  
-#&gt;    -0.04734      4.00317</code></pre>
+#&gt;    -0.03292      3.98563</code></pre>
 <p>How many functions have been used in the example? What does <code>rnorm</code> mean? You can get informed about any R function by using its documentation <code>?function_name</code> or <code>?packageName::function_name</code>.</p>
 </div>
 <div id="cheat-sheets" class="section level4">
@@ -338,7 +338,7 @@ print(lm.fit)
 <h5>Exercise 1</h5>
 <p>Try to figure out the answers without executing the code. Check your answers in R Studio.</p>
 <ol style="list-style-type: lower-alpha">
-<li><p>Given the vector: <code>x &lt;- c("ww", "ee", "ff", "uu", "kk")</code>, what will be the output for x[c(2,3)] ?</p></li>
+<li><p>Given the vector: <code>x &lt;- c("ww", "ee", "ff", "uu", "kk")</code>, what will be the output for <code>x[c(2,3)]</code> ?</p></li>
 <li><p>Let <code>a &lt;- c(2, 4, 6, 8)</code> and <code>b &lt;- c(TRUE, FALSE, TRUE, FALSE)</code>, what will be the output for the R expression <code>max(a[b])</code>?</p></li>
 <li><p>Is it possible to apply the function <code>my_function_name</code> using <code>x</code> and <code>a</code> as arguments?</p></li>
 </ol>
@@ -365,7 +365,7 @@ x*2, x/2, sqrt(x) and names ‘x*2’, ‘x/2’, ‘sqrt(x)’.</p>
 <ol style="list-style-type: lower-alpha">
 <li>Convert DS from the previous exercise to a data frame DF.</li>
 <li>Add an additional column “zeros” in DF with all elements 0.</li>
-<li>Remove the Weight comuln from DF.</li>
+<li>Remove the Weight column from DF.</li>
 </ol>
 </div>
 </div>
