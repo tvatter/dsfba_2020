@@ -361,7 +361,7 @@ x\*2, x\/2, sqrt(x) and names 'x\*2', 'x\/2', 'sqrt(x)'.
 
 ##### Exercise 3
 
-Read the file [Table0.txt](https://www.r-exercises.com/wp-content/uploads/2015/12/Table0.txt) into an object DS.
+Read the file [Table0.txt](Table0.txt) into an object DS.
 
 a) What is the data type for the object DS?
 b) Change the names of the columns to Name, Age, Height, Weight and Sex.
