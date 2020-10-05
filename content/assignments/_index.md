@@ -6,6 +6,8 @@ pre: "<b>3. </b>"
 
 On this page, you will find information about the homeworks and the project.
 
+**Group Registration:** fill in [this form](https://forms.gle/u4zdMfjRVYybeypm9) to register (deadline 10/13).
+
 ## Milestones
 
 | Date |  Assignment |

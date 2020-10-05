@@ -11,8 +11,8 @@ In the third column, references are to chapters from [Advanced R (ADVR)](https:/
 | 09/16 | Introduction |  |
 | 09/23 | Data Structures and Subsetting | ADVR 3+4 |
 | 09/30 | Data Structures and Subsetting | ADVR 3+4 |
-| 10/07 | Control Flows and Functions | ADVR 5+6 |
-| 10/14 | Control Flows and Functions | ADVR 5+6 |
+| 10/07 | Control Flows and Functions | ADVR 5, 6, 9, 11 |
+| 10/14 | Control Flows and Functions | ADVR 5, 6, 9, 11 |
 | 10/21 | Data Wrangling | R4DS 5, 9-16, 18 |
 | 10/28 | Data Wrangling | R4DS 5, 9-16, 18 |
 | 11/04 | Data Wrangling | R4DS 5, 9-16, 18 |

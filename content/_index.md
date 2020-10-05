@@ -8,6 +8,8 @@ title: "Data Science for Business Analytics"
 
 * **Registration:** fill in [this form](https://forms.gle/1oiSL9b2KQB5aAZG8) to register.
 * **Zoom link:** use [this link](https://columbiauniversity.zoom.us/j/91365325993) for the lectures/exercise sessions.
+* **Group Registration:** fill in [this form](https://forms.gle/u4zdMfjRVYybeypm9) to register (deadline 10/13).
+
 
 ## Aim of the course
 
