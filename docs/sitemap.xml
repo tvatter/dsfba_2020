@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -8,11 +8,6 @@
   
   <url>
     <loc>/dsfba_2020/lectures/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/dsfba_2020/lectures/"
-                />
   </url>
   
   <url>
@@ -20,21 +15,15 @@
   </url>
   
   <url>
+    <loc>/dsfba_2020/assignments/project/</loc>
+  </url>
+  
+  <url>
     <loc>/dsfba_2020/ressources/</loc>
   </url>
   
   <url>
-    <loc>/dsfba_2020/lectures/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/dsfba_2020/lectures/"
-                />
-  </url>
-  
-  <url>
     <loc>/dsfba_2020/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -50,12 +39,7 @@
   </url>
   
   <url>
-    <loc>/dsfba_2020/assignments/hw3/</loc>
-  </url>
-  
-  <url>
     <loc>/dsfba_2020/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
