@@ -15,6 +15,6 @@ On this page, you will find information about the homeworks and the project.
 | 10/06 | HW1 |
 | 10/20 | HW2 |
 | 11/10 | HW3 |
-| 11/10 | Project Proposal |
+| 11/10 | [Project Proposal](https://docs.google.com/forms/d/e/1FAIpQLSdGYKtNvyeEFOzz6PPF4TZKtNe1jPVzKdGrCWrx0cHFUqkKGg/viewform) |
 | 12/01 | HW4 (Project Update) |
 | 12/15 | Project Report |

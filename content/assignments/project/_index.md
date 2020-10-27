@@ -12,7 +12,7 @@ There are a few milestones for your final project.
 
 | Date |  Assignment |
 | :---  | :---  |
-| November 10 | Project proposal |
+| November 10 | [Project proposal](https://docs.google.com/forms/d/e/1FAIpQLSdGYKtNvyeEFOzz6PPF4TZKtNe1jPVzKdGrCWrx0cHFUqkKGg/viewform) |
 | December 01 | Project update |
 | December 15 | Project report |
 | December 16 | Slides |
@@ -117,7 +117,7 @@ For instructions on how to submit, please see **Submission Instructions** below.
 ## Submission Instructions
 
 #### How to submit the project proposal (due November 10, 2020)
-TBA
+Fill in [this form](https://docs.google.com/forms/d/e/1FAIpQLSdGYKtNvyeEFOzz6PPF4TZKtNe1jPVzKdGrCWrx0cHFUqkKGg/viewform).
 
 #### How to submit the project udpate (due December 01, 2020)
 TBA

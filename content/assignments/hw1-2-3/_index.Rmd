@@ -6,6 +6,10 @@ output: html_document
 
 ---
 
-The first three assignments will have to be completed in Ed:
+The first two assignments will have to be completed in Ed:
 
 * [Homework 1](https://us.edstem.org/courses/2452/lessons/5393/slides/24022)
+* [Homework 2](https://us.edstem.org/courses/2452/lessons/5393/slides/27075)
+
+For the third assignment, the skeleton can be downloaded in [the resources page of Ed](https://us.edstem.org/courses/2452/resources).
+Instructions for the submissions can be found [here](https://us.edstem.org/courses/2452/discussion/161030).
